@@ -8,10 +8,11 @@ app.use(cors());
 
 // 🔹 MongoDB Atlas connection (replace with your URL)
 mongoose.connect(
-  "mongodb+srv://prasanth:vasanthxr@cluster.mongodb.net/collegeDB"
+  "mongodb+srv://prasanth:vasanthxr@cluster0.umb3j0q.mongodb.net/collegeDB"
 ).then(() => {
   console.log("MongoDB Connected");
 });
+
 
 // 🔹 User Schema (Admin / Student)
 const userSchema = new mongoose.Schema({
